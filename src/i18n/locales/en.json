@@ -1,0 +1,335 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Tech Stack",
+    "services": "What I Build",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+
+  "projectCard": {
+    "viewDemo": "View Demo",
+    "viewCode": "View Code"
+  },
+
+  "personal": {
+    "title": "Full-Stack Software Engineer",
+    "tagline": "Building scalable SaaS platforms, real-time applications and modern full-stack systems.",
+    "bio": {
+      "p1": "I am a full-stack developer focused on building real-world SaaS platforms, real-time messaging systems and scalable web applications.",
+      "p2": "My experience includes modern frontend development with React/Next.js, backend APIs with Node.js and Express, real-time communication using Socket.IO and cross-platform mobile apps with Expo.",
+      "p3": "I enjoy transforming ideas into complete production-ready systems, from database modeling to UI and deployment."
+    }
+  },
+
+  "stats": {
+    "projects": "Projects Built",
+    "saas": "SaaS Platforms",
+    "tech": "Technologies Used",
+    "realtime": "Real-time Systems"
+  },
+
+  "hero": {
+    "basedIn": "Based in",
+    "title": "Full-Stack Developer Portfolio",
+    "subtitle": "Building modern, scalable web applications with React, JavaScript, and cutting-edge technologies. Transforming ideas into exceptional digital experiences.",
+    "cta": "Get in Touch",
+    "imageAlt": "Developer at Work",
+    "scroll": "Scroll to About section"
+  },
+
+  "projects": {
+    "badge": "My Work",
+    "title": "Featured Projects",
+    "subtitle": "Showcasing my best work and achievements",
+    "prev": "Previous projects",
+    "next": "Next projects",
+    "dotsAria": "Go to slide {{index}}",
+
+    "categories": {
+      "all": "All",
+      "web": "Web Apps",
+      "mobile": "Mobile Apps",
+      "saas": "SaaS Platforms",
+      "fullstack": "Full Stack"
+    },
+
+    "items": {
+      "zyra": {
+        "title": "Zyra Messaging Platform",
+        "desc": "Complete real-time messaging platform with authentication, live chat, notifications and mobile support.",
+        "metrics": "Real-time chat + scalable architecture"
+      },
+      "barberflow": {
+        "title": "BarberFlow",
+        "desc": "Scheduling SaaS for barber shops with admin dashboard, time management and WhatsApp integration.",
+        "metrics": "70% reduction in no-shows with automated confirmations"
+      },
+      "beautytime": {
+        "title": "BeautyTime",
+        "desc": "Scheduling system for beauty salons with multiple professionals and custom services.",
+        "metrics": "Increased productivity in customer service"
+      },
+      "doutor": {
+        "title": "Doutor Agenda",
+        "desc": "Medical scheduling platform with patient control, appointment management and automated confirmations.",
+        "metrics": "Reduced missed appointments with reminders"
+      },
+      "whisper": {
+        "title": "Whisper Messaging Platform",
+        "desc": "Full real-time messaging app with secure authentication, scalable backend and cross-platform support.",
+        "metrics": "Real-time messaging + production-ready authentication"
+      }
+    }
+  },
+
+  "services": {
+    "badge": "What I Offer",
+    "title": "Built for innovation. Designed for results.",
+    "subtitle": "Comprehensive solutions to transform your ideas into exceptional digital experiences.",
+
+    "items": {
+      "saas": {
+        "title": "Full-Stack SaaS Development",
+        "desc": "Building scalable SaaS platforms from backend architecture to modern frontend interfaces."
+      },
+      "realtime": {
+        "title": "Real-Time Applications",
+        "desc": "Developing chat systems, notifications and live data platforms with scalable infrastructure."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "desc": "Creating cross-platform mobile apps with Expo and React Native focused on performance and UX."
+      },
+      "booking": {
+        "title": "Scheduling & Booking Systems",
+        "desc": "Building appointment platforms for businesses with automation and dashboards."
+      },
+      "performance": {
+        "title": "Performance & Architecture",
+        "desc": "Designing fast, scalable systems with optimized APIs and clean architecture."
+      },
+      "architecture": {
+        "title": "Code Review & System Architecture",
+        "desc": "Improving codebases and guiding technical decisions for scalable applications."
+      }
+    }
+  },
+
+  "skills": {
+    "badge": "My Expertise",
+    "title": "Skills & Technologies",
+    "subtitle": "A comprehensive overview of my technical skills and proficiency levels.",
+
+    "categories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend & APIs",
+      "tools": "Tools & Others"
+    },
+
+    "items": {
+      "react": {
+        "name": "React / Next.js",
+        "exp": "Modern frontends & SaaS apps",
+        "category": "frontend"
+      },
+      "ts": {
+        "name": "TypeScript / JavaScript",
+        "exp": "Scalable applications",
+        "category": "frontend"
+      },
+      "tailwind": {
+        "name": "Tailwind CSS / Responsive UI",
+        "exp": "Modern UI & layouts",
+        "category": "frontend"
+      },
+      "vite": {
+        "name": "Vite / Frontend Tooling",
+        "exp": "Fast builds & bundling",
+        "category": "tools"
+      },
+      "node": {
+        "name": "Node.js / Express",
+        "exp": "REST APIs",
+        "category": "backend"
+      },
+      "python": {
+        "name": "Python / Backend Services",
+        "exp": "Automation & APIs",
+        "category": "backend"
+      },
+      "db": {
+        "name": "MongoDB / PostgreSQL / Prisma",
+        "exp": "ORM & data modeling",
+        "category": "backend"
+      },
+      "socket": {
+        "name": "Socket.IO / WebSockets",
+        "exp": "Real-time features",
+        "category": "backend"
+      },
+      "mobile": {
+        "name": "Expo / React Native",
+        "exp": "Mobile apps",
+        "category": "frontend"
+      },
+      "auth": {
+        "name": "Authentication (Clerk / JWT)",
+        "exp": "Auth & sessions",
+        "category": "backend"
+      },
+      "deploy": {
+        "name": "Vercel / Railway Deployment",
+        "exp": "Deploy & env config",
+        "category": "tools"
+      },
+      "git": {
+        "name": "Git / GitHub / API Integration",
+        "exp": "Version control & APIs",
+        "category": "tools"
+      }
+    },
+
+    "levels": {
+      "expert": "Expert",
+      "advanced": "Advanced",
+      "intermediate": "Intermediate"
+    }
+  },
+
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Trusted by forward-thinking teams",
+    "subtitle": "Empowering clients with design-driven, high-quality solutions built for success.",
+    "prev": "Previous testimonial",
+    "next": "Next testimonial",
+    "dotsAria": "Go to testimonial {{index}}",
+
+    "stats": {
+      "fasterDelivery": "Faster Delivery",
+      "clientSatisfaction": "Client Satisfaction",
+      "onTimeDelivery": "On-Time Delivery",
+      "averageRating": "Average Rating"
+    },
+
+    "items": {
+      "carlos": {
+        "name": "Carlos Mendes",
+        "role": "Barber Shop Owner",
+        "company": "Mendes Barber",
+        "quote": "BarberFlow completely changed how we manage appointments. Our scheduling is now automated and customers love the simplicity."
+      },
+
+      "ana": {
+        "name": "Ana Souza",
+        "role": "Salon Manager",
+        "company": "Studio Ana Beauty",
+        "quote": "The booking system made our daily operations much easier. Managing multiple professionals and services is now fast and reliable."
+      },
+
+      "lucas": {
+        "name": "Lucas Ferreira",
+        "role": "Startup Founder",
+        "company": "TechFlow",
+        "quote": "The real-time messaging platform works flawlessly. Notifications, chat performance and authentication were all implemented professionally."
+      },
+
+      "mariana": {
+        "name": "Mariana Costa",
+        "role": "Product Manager",
+        "company": "Digital Solutions",
+        "quote": "Great experience working together. The system architecture was clean, scalable and delivered exactly what our product needed."
+      }
+    }
+  },
+
+  "about": {
+    "badge": "Full-Stack Developer",
+    "title": "Crafting Digital Experiences That Matter",
+    "downloadResume": "Download resume",
+    "bio": {
+      "p1": "Write your first bio paragraph here.",
+      "p2": "Write your second bio paragraph here.",
+      "p3": "Write your third bio paragraph here."
+    },
+    "stats": {
+      "years": "Years of experience",
+      "projects": "Projects delivered",
+      "quality": "Quality focus"
+    },
+    "cards": {
+      "expertise": {
+        "title": "Expertise",
+        "desc": "Specialized in building scalable web applications with modern technologies and best practices."
+      },
+      "cleanCode": {
+        "title": "Clean code",
+        "desc": "Writing maintainable, well-documented code that scales."
+      },
+      "performance": {
+        "title": "Performance",
+        "desc": "Optimize for speed and efficiency in every project."
+      }
+    },
+    "metrics": {
+      "items": {
+        "satisfaction": { "value": "100%", "label": "Client Satisfaction" },
+        "support": { "value": "24/7", "label": "Support Available" },
+        "delivery": { "value": "Fast", "label": "Delivery Time" }
+      }
+    },
+    "tech": {
+      "title": "Tech Stack & Expertise",
+      "subtitle": "Technologies I work with to build amazing products."
+    },
+    "skills": {
+      "react": "React.js",
+      "next": "Next.js",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "node": "Node.js",
+      "mongodb": "MongoDB"
+    }
+  },
+
+  "footer": {
+    "quickLinks": "Quick Links",
+    "connectTitle": "Connect With Me",
+    "connectDesc": "Let's connect and create something amazing together.",
+    "socialAria": "Connect on {{platform}}",
+    "rights": "All rights reserved",
+    "builtWith": "Built with",
+    "using": "using React & Tailwind CSS."
+  },
+
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind? Let's discuss how we can bring your ideas to life.",
+
+    "form": {
+      "name": { "label": "Name", "placeholder": "Your name" },
+      "email": { "label": "Email", "placeholder": "your.email@example.com" },
+      "message": { "label": "Message", "placeholder": "Tell me about your project..." },
+      "submit": "Send Message",
+      "errors": {
+        "required": "Please fill in all fields",
+        "invalidEmail": "Please enter a valid email"
+      },
+      "success": "Message sent successfully! I'll get back to you soon."
+    },
+
+    "info": {
+      "title": "Let's Connect",
+      "desc": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+      "emailLabel": "Email",
+      "locationLabel": "Location"
+    },
+
+    "social": {
+      "title": "Connect with me",
+      "aria": "Open {{platform}}"
+    }
+  }
+}
