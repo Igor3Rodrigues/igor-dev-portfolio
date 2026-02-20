@@ -44,7 +44,7 @@ const Navbar = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="text-2xl font-bold bg-linear-to-r from-primary via-primary/50 to-primary/30 bg-clip-text text-transparent"
             >
-              {PERSONAL_INFO.name.split(' ')[1]}
+              {PERSONAL_INFO.name.split(' ')[0]}
             </button>
           </div>
 
