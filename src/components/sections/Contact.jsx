@@ -22,23 +22,42 @@ const Contato = () => {
     })
   }
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault()
 
-    if (!formData || !formData.email || !formData.message) {
+    if (!formData?.email || !formData?.message) {
       setStatus({ type: 'error', message: t('contact.form.errors.required') })
       return
     }
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(formData.email)) {
       setStatus({ type: 'error', message: t('contact.form.errors.invalidEmail') })
       return
     }
 
-    setStatus({ type: 'success', message: t('contact.form.success') })
-    setFormData({ name: '', email: '', message: '' })
+    try {
+      setStatus({ type: 'loading', message: t('contact.form.sending') ?? 'Enviando...' })
 
-    setTimeout(() => setStatus({ type: '', message: '' }), 5000)
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await res.json().catch(() => ({}))
+
+      if (!res.ok) {
+        setStatus({ type: 'error', message: data?.error || 'Falha ao enviar. Tente novamente.' })
+        return
+      }
+
+      setStatus({ type: 'success', message: t('contact.form.success') })
+      setFormData({ name: '', email: '', message: '' })
+      setTimeout(() => setStatus({ type: '', message: '' }), 5000)
+    } catch {
+      setStatus({ type: 'error', message: 'Erro de rede. Tente novamente.' })
+    }
   }
 
   const socialIcons = {
