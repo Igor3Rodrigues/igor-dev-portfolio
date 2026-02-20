@@ -16,7 +16,13 @@ module.exports = async (req, res) => {
 
     const resend = new Resend(process.env.RESEND_API_KEY)
 
+<<<<<<< HEAD
     const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body || {}
+=======
+    const body = typeof req.body === 'string'
+      ? JSON.parse(req.body)
+      : req.body || {}
+>>>>>>> d4f1f338bf6fd5fdc3703cd96149dbfca2fcb8ab
 
     const { name, email, message } = body
 
